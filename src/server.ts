@@ -7,4 +7,4 @@ app.get('/', (_req, res) => {
     res.json({message: 'Hello world'})
 });
 
-app.listen(3000)
+app.listen(3333)
