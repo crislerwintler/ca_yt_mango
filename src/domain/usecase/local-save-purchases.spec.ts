@@ -1,6 +1,9 @@
+class LocalSavePurchases {
+    
+}
 describe('LocalSavePurchase', () => {
-    test('', () => {
-        expect(1).toBe(1)
+    test('Should not delete cache on sut.init', () => {
+        const sut = new LocalSavePurchases()
     })
     
 });
