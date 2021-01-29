@@ -15,10 +15,14 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "resolveJsonModule": true,
-    "paths": {},                           
+    "paths": {
+      "@domain":["./src/domain"],
+      "@usecase": ["./src/domain/usecase"]
+    },                           
     // "rootDirs": [],                       
     "typeRoots": [
-      "./node_modules/@types"
+      "./node_modules/@types",
+      "./src/@types"
     ],
     "esModuleInterop": true,
     "experimentalDecorators": true,
