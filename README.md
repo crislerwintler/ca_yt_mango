@@ -1,2 +1,1 @@
-# ca_yt_mango
-Curso mango clean archictecture
+## Typescript API with jest
