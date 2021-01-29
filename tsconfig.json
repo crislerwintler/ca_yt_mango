@@ -14,7 +14,8 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "baseUrl": ".",
-    // "paths": {},                           
+    "resolveJsonModule": true,
+    "paths": {},                           
     // "rootDirs": [],                       
     "typeRoots": [
       "./node_modules/@types"
@@ -22,8 +23,8 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    /* Advanced Options */
-    "skipLibCheck": true, /* Skip type checking of declaration files. */
-    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+    
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true 
   }
 }
